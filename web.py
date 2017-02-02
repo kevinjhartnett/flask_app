@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 import weather
 app = Flask(__name__)
+import os
 
 @app.route("/")
 def index():
